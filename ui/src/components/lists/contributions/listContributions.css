@@ -1,0 +1,42 @@
+.container-contribution-list {
+  margin: 10px 0;
+}
+.container-contribution-header-list {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  gap: 1px;
+}
+
+.contribution-heder-list-item {
+  height: 30px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #acf329e7;
+}
+
+.context-list-contribution {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  gap: 1px;
+}
+
+.context-list-contribution-item {
+  margin-top: 2px;
+  height: 30px  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #acf329b4;
+}
+
+.context-list-contribution-item-img {
+  width: 30px;
+  height: 30px;
+}
+
+.context-list-contribution-item a {
+  color: #000;
+  text-decoration: none;
+}

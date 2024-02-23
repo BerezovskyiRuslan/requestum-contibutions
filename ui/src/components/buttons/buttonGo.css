@@ -1,0 +1,14 @@
+.button-go {
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  color: white;
+  background-color: #e24800cc;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.button-go:hover {
+  background-color: #e24800;
+}

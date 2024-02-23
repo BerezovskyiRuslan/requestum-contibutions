@@ -1,0 +1,46 @@
+.container-list {
+  width: 70%;
+}
+
+.container-header-list {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%; 
+  gap: 1px;
+}
+
+.header-list-item {
+  height: 30px;
+  width: 100%;
+  background-color: #51bbf8e3;
+  text-align: center;
+  line-height: 30px;
+  color: #3f3e3e;
+  border-radius: 3px;
+}
+
+.container-context-list {
+  margin-top: 7px;
+}
+
+.context-list {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%; 
+  gap: 1px;
+  margin-top: 2px;
+}
+
+.context-list-item {
+  height: 30px;
+  width: 100%;
+  background-color: #51bbf854;
+  text-align: center;
+  line-height: 30px;
+  color: #464646;
+  border-radius: 3px;
+}
+
+.context-list-item a {
+  text-decoration: none;
+  color: #464646;
+}
+

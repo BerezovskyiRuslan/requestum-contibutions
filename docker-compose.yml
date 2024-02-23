@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  server:
+    build: 
+      context: ./server
+      dockerfile: Dockerfile
+    env_file: 
+      - ./server/.env
+    container_name: requestum_get_top_contributors_server
+    image: get_top_contributors_server
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./server:/app
+  client:
+    build: 
+      context: ./ui
+      dockerfile: Dockerfile
+    env_file:
+      - ./ui/.env
+    container_name: requestum_get_top_contributors_client
+    image: get_top_contributors_client
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./ui:/app
+    stdin_open: true
+    tty: true
